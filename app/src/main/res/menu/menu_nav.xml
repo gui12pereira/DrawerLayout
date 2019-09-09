@@ -4,13 +4,16 @@
     <group android:checkableBehavior="single">
 
         <item android:title="Entrada"
-            android:id="@+id/menu_entrada"/>
+            android:id="@+id/menu_entrada"
+            android:icon="@drawable/ic_inbox"/>
 
         <item android:title="Favoritos"
-            android:id="@+id/menu_favoritos"/>
+            android:id="@+id/menu_favoritos"
+            android:icon="@drawable/ic_favorite"/>
 
         <item android:title="Mensagens Enviadas"
-            android:id="@+id/menu_mensagens_enviadas"/>
+            android:id="@+id/menu_mensagens_enviadas"
+            android:icon="@drawable/ic_send"/>
 
     </group>
 
@@ -19,9 +22,11 @@
 
         <menu>
             <item android:title="Lixeira"
-                android:id="@+id/menu_lixeira"/>
+                android:id="@+id/menu_lixeira"
+                android:icon="@drawable/ic_delete"/>
             <item android:title="Spam"
-                android:id="@+id/menu_spam"/>
+                android:id="@+id/menu_spam"
+                android:icon="@drawable/ic_spam"/>
         </menu>
 
     </item>
